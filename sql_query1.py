@@ -51,7 +51,7 @@ result=cursor.fetchall();
 #Printing the results
 for x in range(len(result)):
     print (result[x],end=' ');
-    print("earns more than his supervisor\n")
+    print("earns more than his supervisor\n") 
 conn.commit();
 
 #closing the connection
